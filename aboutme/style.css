@@ -1,0 +1,277 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #F3F2ED;
+}
+
+h1 {
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+
+}
+
+h2 {
+  height: 100%;
+  line-height: 80px;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h3 {
+  height: 100%;
+  margin: 0;
+  font-size: 2rem;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+p {
+  margin: 0 10px 10px;
+  width: 95%;
+  text-indent: 25px;
+
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  background-color: gray
+}
+
+.subHr {
+  height: 1px;
+  width: 100%;
+  color: #333;
+  background-color: gray;
+  text-align: left;
+}
+
+/* NAVIGATION BAR STYLE */
+.topNav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topNav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.mainBody {
+  background-color: #ddd;
+  padding: 20px;
+  height: 100%;
+  text-align: left;
+}
+
+
+
+/* List Style */
+dl {
+  display: grid;
+  grid-gap: 4px 16px;
+  grid-template-columns: max-content;
+  padding: 20px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+  grid-column-start: 2;
+}
+
+/* Links in Article */
+article a:link {
+  color: navy;
+}
+
+article a:visited {
+  color: #060235
+}
+
+article a:hover {
+  color: #0cc4fc
+}
+
+article a:active {
+  color: #C0F0FC
+}
+
+/* Table Formatting */
+.table_component caption {
+  height: 100%;
+  margin: 0;
+  
+  font-weight: bold;
+}
+
+.table_component {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+
+}
+
+.table_component table {
+  border: 1px solid #dededf;
+  height: 100%;
+  width: 600px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+  
+}
+
+.table_component th {
+  border: 1px solid #dededf;
+  background-color: #eceff1;
+  color: #000000;
+  padding: 5px;
+  font-family: monospace;
+  
+  
+  
+}
+
+.table_component td {
+  border: 1px solid #dededf;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 1.25em;
+}
+
+.pets {
+  display: flex;
+  padding: 15px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  gap: 10px 20px;
+  row-gap: 10px;
+}
+
+.pet {
+
+  max-width: 400px;
+  border-width: 2px;
+  border-style: outset;
+}
+
+/* Footer Stlye */
+footer {
+  background-color: #f1f1f1;
+  height: 60px;
+  display: flex;
+  padding: 2px;
+  text-align: center
+}
+
+
+/* Pictures */
+figure.image {
+
+  padding: 14px 16px;
+  border-width: 2px;
+  border-style: outset;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+}
+
+img {
+  transition: transform 0.25s ease;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+
+
+figure .caption {
+  display: block;
+  font-weight: bold;
+}
+
+/* FONT */
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
